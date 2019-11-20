@@ -1,0 +1,9 @@
+os: windows
+language: sh
+
+install:
+  - choco install python
+  - pip install opencv-python-headless
+
+script:
+  - python -c "import cv"
