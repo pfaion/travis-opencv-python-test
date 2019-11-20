@@ -7,4 +7,4 @@ install:
   - pip install opencv-python-headless
 
 script:
-  - python -c "import cv"
+  - python -c "import cv2"
