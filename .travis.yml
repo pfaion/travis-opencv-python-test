@@ -12,7 +12,6 @@ install:
     -DBUILD_LIST=core,highgui,videoio,imgcodecs,imgproc,video
     -DCMAKE_BUILD_TYPE=Release
     -DBUILD_opencv_world=ON
-    -DWITH_WIN32UI=OFF
     -DWITH_DSHOW=OFF
     -DWITH_MSMF=OFF
     -DWITH_DIRECTX=OFF
