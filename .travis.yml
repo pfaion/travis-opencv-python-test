@@ -15,7 +15,6 @@ install:
     -DWITH_WIN32UI=OFF
     -DWITH_DSHOW=OFF
     -DWITH_MSMF=OFF
-    -DWITH_DIRECTX=OFF
     -DCMAKE_INSTALL_PREFIX=../../opencv
     -G"Visual Studio 15 2017 Win64"
   - cmake --build . --target INSTALL --config Release
