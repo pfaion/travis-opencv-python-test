@@ -2,6 +2,7 @@ os: windows
 language: sh
 
 install:
+  - powershell Install-WindowsFeature Server-Media-Foundation
   - choco install python --version 3.7.5
   - PATH=/c/Python37:/c/Python37/Scripts:$PATH
   - pip install opencv-python-headless
